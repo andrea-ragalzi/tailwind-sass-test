@@ -1,0 +1,12 @@
+@import 'vendors/tailwind';
+@import 'base/typography';
+
+html,
+body,
+#root {
+    @apply bg-palette-500 dark:bg-black overflow-y-auto w-auto h-screen;
+}
+
+.container-page {
+    @apply flex flex-col justify-center items-center container;
+}
